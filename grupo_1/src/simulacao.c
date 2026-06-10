@@ -87,3 +87,5 @@ void processar_rodada(Tabuleiro* tab) {
         atual = atual->prox; // Passa a vez para o próximo
     }
 }
+
+// teste 
