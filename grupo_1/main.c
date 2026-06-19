@@ -7,7 +7,7 @@ int main() {
     int linhas, colunas;
     int total_rodadas = 10;
 
-    // Inicializa a semente do gerador aleatório
+    // Inicializa
     srand(time(NULL));
 
     printf("=== SIMULADOR DE ECOSSISTEMA BA-VI (Bamor x TUI x PM) ===\n\n");
@@ -58,7 +58,10 @@ int main() {
     // 4. Liberação de Memória
     printf("Limpando a memoria e encerrando...\n");
     destruir_tabuleiro(meu_tabuleiro);
-    printf("Memoria liberada com nota maxima no analisador!\n");
+    printf("Memoria liberada com sucesso!\n");
+
+    printf("\nPressione ENTER para fechar o simulador...");
+    getchar(); 
 
     return 0;
 }
